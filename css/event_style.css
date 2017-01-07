@@ -113,7 +113,7 @@ body {
     overflow-x: hidden;
 }
 body,
-html { height: 100%;}
+/*html { height: 100%;}*/
 .nav .open > a, 
 .nav .open > a:hover, 
 .nav .open > a:focus {background-color: transparent; }
@@ -140,7 +140,7 @@ html { height: 100%;}
     width: 0;
     height: 100%;
     margin-left: -220px;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
     overflow-x: hidden;
     background: #1a1a1a;
     -webkit-transition: all 0.5s ease;
@@ -391,7 +391,6 @@ html { height: 100%;}
 }
 
 
-
 /*-------------------------------*/
 /*              Body             */
 /*-------------------------------*/
@@ -413,6 +412,32 @@ html { height: 100%;}
   font-size: 20px;
 }
 
+.event-list li a{
+  text-decoration: none;
+  color: #ffffff
+}
+
 .event-list li a:hover{
   text-decoration: none;
+  color: #ffffff
+}
+
+.event-list li a:visited{
+  text-decoration: none;
+  color: #ffffff
+}
+
+.event-list li a:active{
+  text-decoration: none;
+  color: #ffffff
+}
+
+#event-desc{
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#last-list-item{
+  margin-top: 40px;
 }
