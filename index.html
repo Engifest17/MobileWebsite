@@ -2,7 +2,8 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<!-- Latest compiled and minified CSS -->
+	
+    <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Optional theme -->
@@ -19,32 +20,30 @@
 
 	<div class="stars"></div>
 	<div class="twinkling"></div>
-	<div class="clouds"></div>
+	<div class="clouds"></div> <!-- red clouds -->
 
     <div id="wrapper">
         <!-- <div class="overlay"></div> -->
-    
+
         <!-- Sidebar -->
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                       Brand
-                    </a>
+                    <a href="#"> Engifest </a>
                 </li>
                 <li>
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">Registration</a>
                 </li>
                 <li>
                     <a href="#">Events</a>
                 </li>
                 <li>
-                    <a href="#">Team</a>
+                    <a href="#">Accomodations</a>
                 </li>
-                <li class="dropdown">
+                <!-- <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown-header">Dropdown heading</li>
@@ -54,15 +53,12 @@
                     <li><a href="#">Separated link</a></li>
                     <li><a href="#">One more separated link</a></li>
                   </ul>
+                </li> -->
+                <li>
+                    <a href="#">Sponsors</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/maridlcrmn">Follow me</a>
+                    <a href="#">Contact Us</a>
                 </li>
             </ul>
         </nav>
@@ -70,17 +66,30 @@
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <button type="button" class="hamburger is-closed" id="hamburger-button" data-toggle="offcanvas">
                 <span class="hamb-top"></span>
     			<span class="hamb-middle"></span>
 				<span class="hamb-bottom"></span>
             </button>
-            <div class="container">
+            <div class="container home-body">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <center><img src="img/logo.png" id = "logo"></center>
+                        <center><img src="img/logo.png" id ="logo"></center>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-4">
+                        <center><a href="#" class="myButton">Register</a></center>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-4">
+                        <center><a href="#" class="myButton">Accomodations</a></center>
+                    </div>
+                </div>                
+
             </div>
         </div>
         <!-- /#page-content-wrapper -->
