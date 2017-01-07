@@ -4,24 +4,23 @@ $(document).ready(function () {
      isClosed = false;
 
     trigger.click(function () {
-      hamburger_cross();      
-    });
-
-    function hamburger_cross() {
-
-      if (isClosed == true) {          
+       if (isClosed == true) {          
         // overlay.hide();
         trigger.removeClass('is-open');
         trigger.addClass('is-closed');
         isClosed = false;
+        // $(this).css({"margin-left": "20px"}); 
       } else {   
         // overlay.show();
         trigger.removeClass('is-closed');
         trigger.addClass('is-open');
         isClosed = true;
+        // $(this).css({"margin-left": "230px"}); 
       }
-  }
-  
+          
+    });
+
+     
   $('[data-toggle="offcanvas"]').click(function () {
         $('#wrapper').toggleClass('toggled');
   });  
