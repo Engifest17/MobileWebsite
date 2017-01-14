@@ -1,104 +1,105 @@
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="../../css/event_style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Engifest'17</title> 
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Style Sheets --> 
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/trunk.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/body_elements.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/twinkling_star.css" />
+
+    <!-- Scripts --> 
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined')
+            document.write(unescape("%3Cscript src='../../js/jquery-1.9.js'" + "type='text/javascript'%3E%3C/script%3E"))
+    </script>
+
+    <script type="text/javascript" language="javascript" src="../../js/trunk.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 
-<body>
-	<!--Background -->
+</head> 
+ 
+<body> 
 
-	<div class="stars"></div>
-	<div class="twinkling"></div>
-	<div class="clouds"></div> <!-- red clouds -->
+<div class="container">
 
-    <div id="wrapper">
-        <!-- <div class="overlay"></div> -->
+    <header class="slide">     <!-- Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+        <ul id="navToggle" class="burger slide">    <!--    Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+            <li></li><li></li><li></li>
+        </ul>
+    </header>
 
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#"> Engifest </a>
-                </li>
-                <li>
-                    <a href="../../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Registration</a>
-                </li>
-                <li>
-                    <a href="../../events.html">Events</a>
-                </li>
-                <li>
-                    <a href="#">Accomodations</a>
-                </li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
-                <li>
-                    <a href="#">Sponsors</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" id="hamburger-button" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>
-            <div class="container" id="home-body">
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center><h3 id="events-heading">Creative Writing</h3></center>
-                    </div>
+    <nav class="slide">
+        <ul>
+            <li><a href="../../Index.html" class="active">HOME</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="../../events.html">Events</a></li>
+            <li><a href="#">Accomodations</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <li><a href="#">LINK SEVEN</a></li> -->
+        </ul>
+    </nav>
+    
+    <div class="content slide" >        <!-- Add "slideRight" class to items that move right when viewing Nav Drawer   -->
+        <div class="container" id="home-body">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center><h3 id="events-heading">Creative Writing</h3></center>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center>
-                            <p id="event-desc">
-                                The online preliminaries are as follows: Compose a paragraph/poem/prose in 400 characters (NOT WORDS, CHARACTERS) on the topic "Mirror or दर्पण" and send it to us by February 10, midnight.
-                                <br>The selected entries shall face a tougher battle in the offline round on February 13 at DTU campus.
-                                <br><br><br>Date: 15th Feb
-                                <br>Time: 10:00 am
-                                <br>Venue: OAT
-                            </p>
-                        </center>
-                    </div>
-                </div>              
-
             </div>
+
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center>
+                        <p id="event-desc" class="justify">
+                        SYAAHI’17 the annual Literary fest in collaboration with ENGIFEST’15 of Delhi Technological University (Formerly Delhi College OF engineering) invites you to the SAGA of words, where words define you , CREATIVE WRITING, A rendezvous with thoughts- khayalon se mulakat.
+
+                        <br><br>In the rush of our monotonous lives, we breathe but forget to live. It is time to give Voice to our Turbulent sea of emotions and dance above the surface of the world and let our thoughts lift our quills into creativity that is not hampered by opinion
+
+                        <br><br>RULES
+                        <br>i.  First the participants need to send their entries via mail and thereby short listing will take place
+                        <br>ii. The shortlisted candidates will participate in the competition at the campus with the topic to be decided on the spot.
+
+                        <br><br>So with these pretty rules, come up with your amazing thoughts and conquer the event of all times.
+
+                        </p>
+                        <p id="event-desc" class="left">
+                            <br><br>Contact : <br>Kritant(President, Literary Society) - 7065150646<br>
+                            Lalita - 9013312166<br>
+                            Atul - 8351027749
+
+                            <!-- <br><br><br>Date: 15th Feb
+                            <br>Time: 10:00 am
+                            <br>Venue: OAT -->
+                        </p>
+                        <a href="https://goo.gl/forms/jQ6clm4ZpgYAA5Rr2" class="myButton">Register</a>
+                        <ul class="event-list">
+                            <li id="last-list-item"> 
+                                <a href="../literary.html">Back to Literary Events</a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>              
+
         </div>
-        <!-- /#page-content-wrapper -->
-
     </div>
-    <!-- /#wrapper -->
-        <script type="text/javascript" src="../../js/script.js"></script>
+    
+</div>
 
-</body>
+</body> 
 </html>

@@ -1,103 +1,113 @@
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="../../css/event_style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Engifest'17</title> 
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Style Sheets --> 
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/trunk.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/body_elements.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/twinkling_star.css" />
+
+    <!-- Scripts --> 
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined')
+            document.write(unescape("%3Cscript src='../../js/jquery-1.9.js'" + "type='text/javascript'%3E%3C/script%3E"))
+    </script>
+
+    <script type="text/javascript" language="javascript" src="../../js/trunk.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 
-<body>
-	<!--Background -->
+</head> 
+ 
+<body> 
 
-	<div class="stars"></div>
-	<div class="twinkling"></div>
-	<div class="clouds"></div> <!-- red clouds -->
+<div class="container">
 
-    <div id="wrapper">
-        <!-- <div class="overlay"></div> -->
+    <header class="slide">     <!-- Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+        <ul id="navToggle" class="burger slide">    <!--    Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+            <li></li><li></li><li></li>
+        </ul>
+    </header>
 
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#"> Engifest </a>
-                </li>
-                <li>
-                    <a href="../../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Registration</a>
-                </li>
-                <li>
-                    <a href="../../events.html">Events</a>
-                </li>
-                <li>
-                    <a href="#">Accomodations</a>
-                </li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
-                <li>
-                    <a href="#">Sponsors</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" id="hamburger-button" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>
-            <div class="container" id="home-body">
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center><h3 id="events-heading">Just A Minute</h3></center>
-                    </div>
+    <nav class="slide">
+        <ul>
+            <li><a href="../../Index.html" class="active">HOME</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="../../events.html">Events</a></li>
+            <li><a href="#">Accomodations</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <li><a href="#">LINK SEVEN</a></li> -->
+        </ul>
+    </nav>
+    
+    <div class="content slide" >        <!-- Add "slideRight" class to items that move right when viewing Nav Drawer   -->
+        <div class="container" id="home-body">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center><h3 id="events-heading">Just a Minute</h3></center>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center>
-                            <p id="event-desc">
-                                Get ready for this fast paced, 60 second linguistic thriller! This battle tests your quick thinking, speaking ability and command over the English language. You will be pitted against several students in this war zone and no mercy will be shown. Get ready for this year most EPIC battle. You got a minute to win it.
-                                <br><br><br>Date: 15th Feb
-                                <br>Time: 10:00 am
-                                <br>Venue: OAT
-                            </p>
-                        </center>
-                    </div>
-                </div>              
-
             </div>
+
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center>
+                        <p id="event-desc" class="justify">
+                        Get ready for this fast paced, 60 second linguistic thriller! This battle tests your quick thinking, speaking ability and command over the English language.
+                        <br>You got a minute to win it!
+
+                        <br><br>RULES
+                        <br>i.  This is an individual event. However, more than one person from any college can participate.
+                        <br>ii. The participants will be divided into groups of 12 for the preliminary round.
+                        <br>iii.    Top 12 scorers from the preliminary round will qualify for the final round.
+                        <br>iv. Participants will be judged on their clarity of thought, flow of speech, time for which they speak and on the refutations.
+
+                        <br>v.  Refutations will be allowed on unnecessary repetitions of sentences, stammers, unnatural pauses, grammatical errors, mistimed starts, and other such errors.
+
+                        <br><br>POINTS TO REMEMBER
+                        <br>i.  The JAM master is GOD
+                        <br>ii. Stick to point 1 to course smoothly through the competition.
+                        <br>iii.    Any issues or discrepancies shall be resolved by the JAM master.
+                        <br>iv. The JAM master shall have the final verdict in all matters.
+                        <br>v.  Keep in mind, that audibility and clarity of speech is key in this competition.
+
+                        </p>
+                        <p id="event-desc" class="left">
+                            <br><br>Contact : <br>Kritant(President, Literary Society) - 7065150646<br>
+                            Lalita - 9013312166<br>
+                            Atul - 8351027749
+
+                            <!-- <br><br><br>Date: 15th Feb
+                            <br>Time: 10:00 am
+                            <br>Venue: OAT -->
+                        </p>
+                        <a href="https://goo.gl/forms/xt7I0CYeghtEvtRV2" class="myButton">Register</a>
+                        <ul class="event-list">
+                            <li id="last-list-item"> 
+                                <a href="../literary.html">Back to Literary Events</a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>              
+
         </div>
-        <!-- /#page-content-wrapper -->
-
     </div>
-    <!-- /#wrapper -->
-        <script type="text/javascript" src="../../js/script.js"></script>
+    
+</div>
 
-</body>
+</body> 
 </html>
