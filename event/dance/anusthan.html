@@ -1,104 +1,125 @@
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="../../css/event_style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Engifest'17</title> 
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Style Sheets --> 
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/trunk.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/body_elements.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/twinkling_star.css" />
+
+    <!-- Scripts --> 
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined')
+            document.write(unescape("%3Cscript src='../../js/jquery-1.9.js'" + "type='text/javascript'%3E%3C/script%3E"))
+    </script>
+
+    <script type="text/javascript" language="javascript" src="../../js/trunk.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 
-<body>
-	<!--Background -->
+</head> 
+ 
+<body> 
 
-	<div class="stars"></div>
-	<div class="twinkling"></div>
-	<div class="clouds"></div> <!-- red clouds -->
+<div class="container">
 
-    <div id="wrapper">
-        <!-- <div class="overlay"></div> -->
+    <header class="slide">     <!-- Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+        <ul id="navToggle" class="burger slide">    <!--    Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+            <li></li><li></li><li></li>
+        </ul>
+    </header>
 
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#"> Engifest </a>
-                </li>
-                <li>
-                    <a href="../../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Registration</a>
-                </li>
-                <li>
-                    <a href="../../events.html">Events</a>
-                </li>
-                <li>
-                    <a href="#">Accomodations</a>
-                </li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
-                <li>
-                    <a href="#">Sponsors</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" id="hamburger-button" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>
-            <div class="container" id="home-body">
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center><h3 id="events-heading">Anusthan</h3></center>
-                    </div>
+    <nav class="slide">
+        <ul>
+            <li><a href="../../Index.html" class="active">HOME</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="../../events.html">Events</a></li>
+            <li><a href="#">Accomodations</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <li><a href="#">LINK SEVEN</a></li> -->
+        </ul>
+    </nav>
+    
+    <div class="content slide" >        <!-- Add "slideRight" class to items that move right when viewing Nav Drawer   -->
+        <div class="container" id="home-body">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center><h3 id="events-heading">Anushtaan</h3></center>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center>
-                            <p id="event-desc">
-                                Indian classical dance is an umbrella term for various codified art forms rooted in sacred Hindu musical theatre styles and was considered a higher form of art and was practiced in courts, temples and on special occasions. Folk dance forms, on the other hand, were and are still practiced in groups in rural areas as an expression of the daily work and rituals of the common people during festivals. Anushthaan, organized by Nrityangana, The Classical Dance Society of DTU, truly depicts the glorified culture and traditions of India. With performances ranging from Gujarat's Garba to Punjab’s Bhangra, from the mesmerizing moves of Bharatnatyam to the graceful Kathak, the classical and folk dance competition, Anushthaan, has been and will continue to add colours to the Engifest.
-                                <br><br><br>Date: 13th Feb
-                                <br>Time: 10:00 am
-                                <br>Venue: BR Ambedkar Auditorium
-                                <br>Fees: 300 / team or 100 / Individual
-                            </p>
-                        </center>
-                    </div>
-                </div>              
-
             </div>
+
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center>
+                        <p id="event-desc" class="justify">
+                            GROUP <br><br> Rules & regulations:
+                            <br><br>1. For folk, teams have to perform one of the following dance forms:
+                            <br>Alkap, Bhangra, Bhavai, Bihu, Cheraw (bamboo dance) , Chhau, Dhap, Dumhal, Gambhira, Garba(dandiya), Gaur dance, Ghoomar, Ghumura, Giddha, Gondhal, Jawara ,Jhoomer, Kalbelia, Karakattam, Koli, Lavani, Naga dance, Odissi, Padhar, Raas.
+                            <br>If team wants to perform a form other than those mentioned above, they are required to contact the coordinators well in advance.
+                            <br><br>2. All forms of pure Indian classical dance forms are allowed.
+                            <br>3. Semi-classical styles are allowed provided there are distinctive classical elements are identified in the performance, amalgamated with other fusion styles. Contact the event coordinator in case of any queries.
+                            <br>4. The teams must bring CDs/ Pen-drive for the music (audio format)
+                            <br>5. Time Limit: Minimum: 7 minutes Maximum: 10 minutes. (One minute will be allowed in addition to maximum time for setup and strike of props)
+                            <br>6. Team size: Minimum: 6 Maximum: 15
+                            <br>7. Judging Criteria:Choreography, Synchronization, Expression, Creativity, Prop Usage, Costume, Energy, Stage coverage, and overall impact.
+                            <br><br>8. All props are allowed except for the following:
+                            <br>Swords, knives, or any other sharp objects (unless plastic – but must be approved prior to performance)
+                            Fire in any form (candles, torches, etc.) Fog or smoke Helium balloons Special lighting
+                            <br><br>SOLO <br><br>Rules & regulations:
+                            <br><br>ROUND 1: Online Prelims:
+                            <br>PARTICIPANTS ARE SUPPOSED TO SEND A VIDEO OF THEIR PERFORMANCE(MAXIMUM: 6 MINUTES, CLASSICAL/SEMI-CLASSICAL/FOLK) TO nrityangana.dtu@gmail.com LATEST BY 12TH FEBRUARY 2017.
+                            <br>1. All forms of pure Indian classical dance forms are allowed.
+                            <br>2. Semi-classical styles are allowed provided there are distinctive classical elements are identified in the performance, amalgamated with other fusion styles. Contact the event coordinator in case of any queries.
+                            <br><br>3. For folk, teams have to perform one of the following dance forms:
+                            <br>Alkap, Bhangra, Bhavai, Bihu, Cheraw (bamboo dance) , Chhau, Dhap, Dumhal, Gambhira,Garba (dandiya), Gaur dance, Ghoomar, Ghumura, Giddha, Gondhal, Jawara ,Jhoomer, Kalbelia, Karakattam, Koli, Lavani, Naga dance, Odissi, Padhar, Raas.
+                            <br>If a participant wants to perform a form other than those mentioned above, they are required to contact the coordinators well in advance.
+                            <br><br>4. Time Limit(Online Prelims): Minimum: 4 minutes Maximum: 7 minutes. (One minute will be allowed in addition to maximum time for setup and strike of props)
+                            <br>5. Judging Criteria:
+                            Choreography, Synchronization, Expression, Creativity, Prop Usage, Costume, Energy, Stage coverage, and overall impact.
+                            <br>All props are allowed except for the following:
+                            Swords, knives, or any other sharp objects (unless plastic – but must be approved prior to performance)
+                            Fire in any form (candles, torches, etc. Fog or smoke
+                            Helium balloons Special lighting
+                            <br><br>ROUND 2: <br>ONE ON ONE FACE OFF BATTLE
+                            <br>THE SELECTED CONTESTANTS WILL MOVE FORWARD TO ROUND TWO, IN WHICH THEY WILL BATTLE AGAINST A FELLOW CONTESTANT(FACE OFF) ON THE SONG CHOSEN BY THE ORGANISERS. THE PARTICIPANTS SHALL PERFORM THEIR SELECTED CLASSICAL/SEMI-CLASSICAL/FOLK DANC STYLE ON SONGS THAT MAY NOT BE OF THE SAME GENRE.
+                            <br><br>**In case of conflicts, decision of the judges would be considered final and binding**
+                        </p>
+                        <p id="event-desc" class="left">
+                            <br>Contact :
+                            <br>Aditi(Head) - 9717481156
+                            <br>Ria - 9599589075
+                            <!-- <br><br><br>Date: 15th Feb
+                            <br>Time: 10:00 am
+                            <br>Venue: OAT -->
+                        </p>
+                        <a href="https://goo.gl/forms/3vyaN0YukfkJOVim1" class="myButton">Register</a>
+                        <ul class="event-list">
+                            <li id="last-list-item"> 
+                                <a href="../dance.html">Back to Dance Events</a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>              
+
         </div>
-        <!-- /#page-content-wrapper -->
-
     </div>
-    <!-- /#wrapper -->
-        <script type="text/javascript" src="../../js/script.js"></script>
+    
+</div>
 
-</body>
+</body> 
 </html>
