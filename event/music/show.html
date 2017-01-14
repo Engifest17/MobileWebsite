@@ -1,103 +1,108 @@
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="../../css/event_style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Engifest'17</title> 
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Style Sheets --> 
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/trunk.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/body_elements.css" />
+
+    <!-- Scripts --> 
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined')
+            document.write(unescape("%3Cscript src='../../js/jquery-1.9.js'" + "type='text/javascript'%3E%3C/script%3E"))
+    </script>
+
+    <script type="text/javascript" language="javascript" src="../../js/trunk.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 
-<body>
-	<!--Background -->
+</head> 
+ 
+<body> 
 
-	<div class="stars"></div>
-	<div class="twinkling"></div>
-	<div class="clouds"></div> <!-- red clouds -->
+<div class="container">
 
-    <div id="wrapper">
-        <!-- <div class="overlay"></div> -->
+    <header class="slide">     <!-- Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+        <ul id="navToggle" class="burger slide">    <!--    Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+            <li></li><li></li><li></li>
+        </ul>
+    </header>
 
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#"> Engifest </a>
-                </li>
-                <li>
-                    <a href="../../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Registration</a>
-                </li>
-                <li>
-                    <a href="../../events.html">Events</a>
-                </li>
-                <li>
-                    <a href="#">Accomodations</a>
-                </li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
-                <li>
-                    <a href="#">Sponsors</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" id="hamburger-button" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>
-            <div class="container" id="home-body">
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center><h3 id="events-heading">There's a Show</h3></center>
-                    </div>
+    <nav class="slide">
+        <ul>
+            <li><a href="../../Index.html" class="active">HOME</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="../../events.html">Events</a></li>
+            <li><a href="#">Accomodations</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <li><a href="#">LINK SEVEN</a></li> -->
+        </ul>
+    </nav>
+    
+    <div class="content slide" >        <!-- Add "slideRight" class to items that move right when viewing Nav Drawer   -->
+        <div class="container" id="home-body">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center><h3 id="events-heading">Two's a Show</h3></center>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center>
-                            <p id="event-desc">
-                                They say the best things in life come in threes. If you three think you're one of those things, you have the stage. Show us your magic. Participants can register both online and offline (on the spot). Only one person from the team should register.
-                                <br><br><br>Date: 15th Feb
-                                <br>Time: 10:00 am
-                                <br>Venue: OAT
-                            </p>
-                        </center>
-                    </div>
-                </div>              
-
             </div>
+
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center>
+                        <p id="event-desc" class="justify">
+                            The most beautiful things in the world cannot be seen or touched, they are felt with the heart.
+                            <br>If you’re the pair whose melodies can resonate in the hearts of the masses, give it what you’ve got at Two’s a Show!
+                            <br><br>REGISTRATION:
+                            <br>Participants can register both online and offline (on the spot).
+                            <br>Please note: <br>Only one person from the pair should register.
+                            <br><br>RULES:
+                            <br>1. Each pair is allotted a total of 7 minutes including setup.
+                            <br>2. There should be exactly 2 members in a team.
+                            <br>3. Any number of instruments can be played by the participants.
+                            <br>4. An acoustic guitar, a synthesizer and drum kit will be provided. The participants can bring any other instrument required.
+                            <br>5. Beat boxing is allowed.
+                            <br>6. Use of loopers and digital rhythm patterns is strictly prohibited. However use of digital effects is allowed.
+                            <br>7. Vocals (if any) must be in either English or Hindi or both.
+                            <br>8. Maximum 2 pairs are allowed per college.
+                            <br><br>Please note: <br>Performers have freedom to perform as they wish. Any combination of instruments or vocals or both is allowed.
+                            <br><br>JUDGING CRITERIA: <br>Originality, creativity, coordination and overall impact.
+                        </p>
+                        <p id="event-desc" class="left">
+                            <br><br>Contact : <br>Anurag Saikia (Head)- 9899581945<br>
+                            Bharath(PR Coordinator) - 8802905997<br>
+                            <!-- <br><br><br>Date: 15th Feb
+                            <br>Time: 10:00 am
+                            <br>Venue: OAT -->
+                        </p>
+                        <a href="https://goo.gl/forms/edJPZQ8Dvw7UDyNw1" class="myButton">Register</a>
+                        <ul class="event-list">
+                            <li id="last-list-item"> 
+                                <a href="../music.html">Back to Music Events</a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>              
+
         </div>
-        <!-- /#page-content-wrapper -->
-
     </div>
-    <!-- /#wrapper -->
-        <script type="text/javascript" src="../../js/script.js"></script>
+    
+</div>
 
-</body>
+</body> 
 </html>
