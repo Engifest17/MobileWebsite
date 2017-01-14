@@ -1,104 +1,135 @@
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="../../css/event_style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Engifest'17</title> 
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Style Sheets --> 
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/trunk.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/body_elements.css" />
+
+    <!-- Scripts --> 
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined')
+            document.write(unescape("%3Cscript src='../../js/jquery-1.9.js'" + "type='text/javascript'%3E%3C/script%3E"))
+    </script>
+
+    <script type="text/javascript" language="javascript" src="../../js/trunk.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 
-<body>
-	<!--Background -->
+</head> 
+ 
+<body> 
 
-	<div class="stars"></div>
-	<div class="twinkling"></div>
-	<div class="clouds"></div> <!-- red clouds -->
+<div class="container">
 
-    <div id="wrapper">
-        <!-- <div class="overlay"></div> -->
+    <header class="slide">     <!-- Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+        <ul id="navToggle" class="burger slide">    <!--    Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+            <li></li><li></li><li></li>
+        </ul>
+    </header>
 
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#"> Engifest </a>
-                </li>
-                <li>
-                    <a href="../../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Registration</a>
-                </li>
-                <li>
-                    <a href="../../events.html">Events</a>
-                </li>
-                <li>
-                    <a href="#">Accomodations</a>
-                </li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
-                <li>
-                    <a href="#">Sponsors</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" id="hamburger-button" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>
-            <div class="container" id="home-body">
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center><h3 id="events-heading">Spandhan Solo</h3></center>
-                    </div>
+    <nav class="slide">
+        <ul>
+            <li><a href="../../Index.html" class="active">HOME</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="../../events.html">Events</a></li>
+            <li><a href="#">Accomodations</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <li><a href="#">LINK SEVEN</a></li> -->
+        </ul>
+    </nav>
+    
+    <div class="content slide" >        <!-- Add "slideRight" class to items that move right when viewing Nav Drawer   -->
+        <div class="container" id="home-body">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center><h3 id="events-heading">Spandhan</h3></center>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center>
-                            <p id="event-desc">
-                                Dance is the language of the soul and ENGIFEST'16 gives every soul a beautiful platform to express, a competitive environment for every dancer to showcase their talent.Calling out to all dance enthusiasts to dance their hearts out. Whatever your style be - jazz, hip hop, contemporary, classical or freestyle, SPANDAN gives you a chance to showcase your hidden talent and passion.
-                                <br><br><br>Date: 13th Feb
-                                <br>Time: 10:00 am
-                                <br>Venue: OAT
-                                <br>Fees: 100 / team
-                            </p>
-                        </center>
-                    </div>
-                </div>              
-
             </div>
+
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center>
+                        <p id="event-desc" class="justify">
+                            Dance is the language of the soul and ENGIFEST'17 gives every soul a beautiful platform to express, a competitive environment for every dancer to showcase their talent!
+                            <br>(a) SOLO: Calling out to all dance enthusiasts to dance their hearts out. Whatever your style be - jazz, hip hop, contemporary, classical or freestyle, SPANDAN gives you a chance to showcase your hidden talent and passion.
+                            <br>(b) GROUP: Dancing together is different feet moving to the same beats. We invite you to a fleeting moment where you feel alive, to enchant the crowd with your vibrant rhythm and to claim the Spandan crown.
+                            <br><br>RULES:
+                            <br>(a) SOLO:
+                            <br>Number of rounds: 2
+                            <br>ROUND 1 - Preliminary round: Video based selection round.
+                            <br>ROUND 2 - Finale: Best 15 people selected from the prelims will compete against each other on the day of the final event
+                            <br>1. Only college students are allowed.
+                            <br>2. Last date of online registration is xyz. On the spot registrations will not be entertained.
+                            <br>3. Any props/costumes if to be used should be arranged by the participants. Use of fire or any other inflammable object is restricted.
+                            <br>4. Time limit is 2-4 minutes.
+                            <br>5. Qualified participants have to ensure that one copy of their edited song is with the event head and one copy they should carry with them. Song should be in .mp3 format. Also, it is the contestant's duty to be careful and aware of the order of performance and should be present 15 minutes before the allotted time.
+                            <br>6. All the participants are required to carry their identity cards to the campus on the day of the event.
+                            <br>7. The organizing committee reserves the right to change the venue, time and rules, if required.
+                            <br>8. The decision of the judges will be final and binding.
+                            <br><br>(b) GROUP:
+                            <br>Number of rounds: 2
+                            <br>ROUND 1 - Preliminary Round: Video based selection
+                            <br>ROUND 2 - Finale: Best 15 teams selected from the prelims will compete against each other on the day of the final event
+                            <br>1. There is no restriction on the theme. It's an Open theme Group Dance Competition.
+                            <br>2. Maximum 1 team per college allowed.
+                            <br>3. Cross-college teams are not allowed.
+                            <br>4. Only college students are allowed to participate.
+                            <br><br>Prelims:-
+                            <br>1. Teams have to submit a 3-5 minute video of their performance for prelims.
+                            <br>2. In case of multiple video submissions, only the first one will be considered for evaluation.
+                            <br>3. No late entries shall be tolerated.
+                            <br>4. Decision of the judges and the Organising Committee will be final and binding.
+                            <br>5. No responsibility will be held by DTU for any late or lost entries or any such events.
+                            <br><br>Finals:-
+                            <br>1. Time limit per team: 8-10 minutes. Teams will be penalized in case the time limit is exceeded.
+                            <br>2. Team size should not be more than 20. However there must be at least 6 members on stage at any point during the performance.
+                            <br>3. It is mandatory for all the team members to carry their college ID cards to the final event.
+                            <br>4. Usage of props is allowed and should be consulted with any of the event heads in advance.
+                            <br>5. Use of fire or any other inflammable object is restricted.
+                            <br>6. No lead dancer or solo performance is allowed at any point of time during the performance.
+                            <br>7. The selected teams must send their final song track 2 days before the final event and also bring the same in a pen drive/CD on the day of the final event.
+                            <br>8. The selected teams must report at the registration desk two hours before the event.
+                            <br>9. Decision of the judges and the Organising Committee will be final and binding. The college reserves the right, in its sole discretion, to disqualify any entry at any time in the event if it is determined that the entrant has not complied with these rules or has acted in an unsportsmanlike or disruptive manner.
+                            <br>10. The prizes are subject to change on the basis of quality of participation.
+                        </p>
+                        <p id="event-desc" class="left">
+                            <br>Contact :
+                            <br>Pooja(Head) - 7838724227
+                            <br>Achal(Head) - 8376054139
+                            <br>Kanwar(PR Coordinator) - 9560696296
+                            <!-- <br><br><br>Date: 15th Feb
+                            <br>Time: 10:00 am
+                            <br>Venue: OAT -->
+                        </p>
+                        <a href="https://goo.gl/forms/HQl47owDBb2P3VqS2" class="myButton">Register</a>
+                        <ul class="event-list">
+                            <li id="last-list-item"> 
+                                <a href="../dance.html">Back to Dance Events</a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>              
+
         </div>
-        <!-- /#page-content-wrapper -->
-
     </div>
-    <!-- /#wrapper -->
-        <script type="text/javascript" src="../../js/script.js"></script>
+    
+</div>
 
-</body>
+</body> 
 </html>
