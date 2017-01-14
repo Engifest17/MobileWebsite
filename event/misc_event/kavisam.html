@@ -1,103 +1,110 @@
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-	<link rel="stylesheet" type="text/css" href="../../css/event_style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Engifest Miscellaneous Events</title> 
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Style Sheets --> 
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/trunk.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../../css/body_elements.css" />
+
+    <!-- Scripts --> 
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined')
+            document.write(unescape("%3Cscript src='../../js/jquery-1.9.js'" + "type='text/javascript'%3E%3C/script%3E"))
+    </script>
+
+    <script type="text/javascript" language="javascript" src="../../js/trunk.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 
-<body>
-	<!--Background -->
+</head> 
+ 
+<body> 
 
-	<div class="stars"></div>
-	<div class="twinkling"></div>
-	<div class="clouds"></div> <!-- red clouds -->
+<div class="container">
 
-    <div id="wrapper">
-        <!-- <div class="overlay"></div> -->
+    <header class="slide">     <!-- Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+        <ul id="navToggle" class="burger slide">    <!--    Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+            <li></li><li></li><li></li>
+        </ul>
+    </header>
 
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#"> Engifest </a>
-                </li>
-                <li>
-                    <a href="../../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">Registration</a>
-                </li>
-                <li>
-                    <a href="../../events.html">Events</a>
-                </li>
-                <li>
-                    <a href="#">Accomodations</a>
-                </li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li class="dropdown-header">Dropdown heading</li>
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
-                <li>
-                    <a href="#">Sponsors</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" id="hamburger-button" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>
-            <div class="container" id="home-body">
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center><h3 id="events-heading">The Engi Quiz</h3></center>
-                    </div>
+    <nav class="slide">
+        <ul>
+            <li><a href="../../Index.html" class="active">HOME</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="../../events.html">Events</a></li>
+            <li><a href="#">Accomodations</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <li><a href="#">LINK SEVEN</a></li> -->
+        </ul>
+    </nav>
+    
+    <div class="content slide" >        <!-- Add "slideRight" class to items that move right when viewing Nav Drawer   -->
+        <div class="container" id="home-body">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center><h3 id="events-heading">Kavi Sammelan</h3></center>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <center>
-                            <p id="event-desc">
-                                Engifest'16 in association with Quizzing Inc presents "The Engi Quiz". On the very first day of the fest, get your wits sharpened and knowledge replenished for you'll need every bit of your grey cells to crack this nut. A general quiz spread over 9 rounds with two prelims slots to thoroughly test your mental faculties giving you a chance to win awesome prizes including up to 15,000 in cash!
-                                <br><br><br>Date: 15th Feb
-                                <br>Time: 10:00 am
-                                <br>Venue: OAT
-                            </p>
-                        </center>
-                    </div>
-                </div>              
-
             </div>
+
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <center>
+                        <p id="event-desc" class="justify">
+                            <!-- Engifest Infinity brings to you Infinite bouts of laughter, Infinite spurts of comedy, Infinite doses of jokes and insults.
+                            <br>All of it will leave you rolling on the floor with your tummy aching!
+                            
+                            <br><br>The event will have two rounds -
+                            <br><br>Round 1: PRELIMS/ELIMINATION
+                            <br>Team Size: Solo
+                            <br>Time Limit: 3-4 minutes.
+                            <br>Prelims/Eliminations will be conducted on-ground during the fest, where the participants have to put on a show of 3-4 minutes in front of a live audience.
+                            <br><br>Round 2: FINALS
+                            <br>The participants who clear the elimination round will be asked to prepare a sketch to perform in front of a live audience and the judges.
+                            <br><br>Judging Criteria: <br>Content, Quality of humor, Stage presence, Audience Engagement, Clarity of thought and speech, Wackiness, USP (Unique selling point)
+                            <br><br>Time Limit: 4-5 minutes.
+                            <br><br>Rules and Regulations:
+                            <br>1. Mono-acting, puppetry, musicals are not allowed though ventriloquism is allowed
+                            <br>2. Use of props is allowed, brought in by the participant himself. The organizers hold the
+                            discretion of allowing it on stage.
+                            <br>3. Decisions taken by the judge is absolute and binding.
+                            <br>4. Use of obscenity/profanity is strictly not allowed.
+                            <br>5. Any Form of music is not allowed during the performance.
+                            <br>6. Since the participants are called upon in a random order, each is required to be
+                            present at least 5 minutes prior to the start. Organisers will not be responsible if you are
+                            unable to show up on time and miss your slot. -->
+                            <!-- <br><br><br>Date: 15th Feb
+                            <br>Time: 10:00 am
+                            <br>Venue: OAT -->
+                        <!-- </p>
+                        <a href="https://goo.gl/forms/Evwz4uxtIp0hxfxq1" class="myButton">Register</a> -->
+                        <ul class="event-list">
+                            <li id="last-list-item"> 
+                                <a href="../misc.html">Back to Miscellaneous Events</a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>              
+
         </div>
-        <!-- /#page-content-wrapper -->
-
     </div>
-    <!-- /#wrapper -->
-        <script type="text/javascript" src="../../js/script.js"></script>
+    
+</div>
 
-</body>
+</body> 
 </html>
