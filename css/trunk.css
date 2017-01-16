@@ -251,12 +251,6 @@ nav.close {
 				transform: translate3d(5%,0,0)scale(.97);}
 }
 
-
-.main-body{
-	z-index: 999;
-	position: relative;
-}
-
 /* CONTENT ANNIMATION */
 .content {
 	/* starting point */

@@ -2,9 +2,16 @@
 /*         Body Content          */
 /*-------------------------------*/
 
+.main-body{
+  z-index: 999;
+  position: relative;
+}
 
 #logo{
   z-index: 999;
+  width: 80%;
+  height: auto;
+  display: block;
 }
 
 #home-body{
