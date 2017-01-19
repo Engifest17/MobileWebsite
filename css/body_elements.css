@@ -11,6 +11,8 @@
   z-index: 999;
   width: 80%;
   height: auto;
+  max-width: 505px;
+  max-height: auto;
   display: block;
 }
 
@@ -112,4 +114,45 @@
 
 #last-list-item{
   margin-top: 40px;
+}
+
+/*-------------------------------*/
+/*         Ordered-List          */
+/*-------------------------------*/
+
+.list-heading{
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.event-list-order{
+  list-style-type: decimal;
+}
+
+.event-list-order li{
+  list-style-type: decimal;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.click-here{
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.click-here a:hover{
+  color: #ffffff
+}
+
+.click-here a:visited{
+  color: #ffffff
+}
+
+.click-here a:active{
+  color: #ffffff
 }
