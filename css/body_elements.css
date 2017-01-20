@@ -141,18 +141,6 @@
   display: inline-block;
   color: #ffffff;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important ;
   font-size: 22px;
-}
-
-.click-here a:hover{
-  color: #ffffff
-}
-
-.click-here a:visited{
-  color: #ffffff
-}
-
-.click-here a:active{
-  color: #ffffff
 }
